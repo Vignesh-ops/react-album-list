@@ -1,0 +1,141 @@
+{
+    "collections": [
+      {
+        "id": "12345",
+        "name": "EPIC: The Troy Saga (Official Concept Album)",
+        "artist": "Jorge Rivera-Herrans",
+        "type": "EP",
+        "songCount": 5,
+        "durationInSeconds": 900,
+        "sizeInBytes": 41448488,
+        "releasedOn": "2024-09-03T14:35:00Z"
+      },
+      {
+        "id": "67890",
+        "name": "Legends of Music",
+        "artist": "Various Artists",
+        "type": "Album",
+        "songCount": 5,
+        "durationInSeconds": 3200,
+        "sizeInBytes": 31112800,
+        "releasedOn": "2023-12-15T10:00:00Z"
+      },
+      {
+        "id": "11111",
+        "name": "The Sound of Time",
+        "artist": "Echo Harmonics",
+        "type": "Album",
+        "songCount": 4,
+        "durationInSeconds": 2700,
+        "sizeInBytes": 28334857,
+        "releasedOn": "2022-11-10T09:30:00Z"
+      },
+      {
+        "id": "22222",
+        "name": "Neon Vibes",
+        "artist": "Synthwave Collective",
+        "type": "EP",
+        "songCount": 4,
+        "durationInSeconds": 1500,
+        "sizeInBytes": 55312000,
+        "releasedOn": "2023-08-22T20:15:00Z"
+      },
+      {
+        "id": "33333",
+        "name": "Acoustic Nights",
+        "artist": "Sarah McLachlan",
+        "type": "Album",
+        "songCount": 4,
+        "durationInSeconds": 2400,
+        "sizeInBytes": 63360000,
+        "releasedOn": "2021-05-14T18:00:00Z"
+      },
+      {
+        "id": "4343",
+        "name": "Single Nights",
+        "artist": "Sarah clarin",
+        "type": "Single",
+        "songCount": 2,
+        "durationInSeconds": 2400,
+        "sizeInBytes": 8960000,
+        "releasedOn": "2021-05-14T18:00:00Z"
+      }
+
+    ],
+    
+      "collectionDetails": [
+        {
+          "id": "12345",
+          "name": "EPIC: The Troy Saga (Official Concept Album)",
+          "artist": "Jorge Rivera-Herrans",
+          "type": "EP",
+          "songCount": 5,
+          "songs": [
+            { "title": "The Battle of Troy", "durationInSeconds": 200, "sizeInBytes": 8200000, "performers": ["Jorge Rivera-Herrans"] },
+            { "title": "The Fall of the City", "durationInSeconds": 180, "sizeInBytes": 8200000, "performers": ["Jorge Rivera-Herrans"] },
+            { "title": "Echoes of Time", "durationInSeconds": 160, "sizeInBytes": 8200000, "performers": ["Hans Zimmer", "Lisa Gerrard"] },
+            { "title": "Neon Dreams", "durationInSeconds": 180, "sizeInBytes": 8500000, "performers": ["Synthwave Collective"] },
+            { "title": "Rise of the Phoenix", "durationInSeconds": 180, "sizeInBytes": 7704888, "performers": ["Two Steps From Hell"] }
+          ],
+          "releasedOn": "2024-09-03T14:35:00Z"
+        },
+        {
+          "id": "67890",
+          "name": "Legends of Music",
+          "artist": "Various Artists",
+          "type": "Album",
+          "songCount": 5,
+          "songs": [
+            { "title": "Timeless Melody", "durationInSeconds": 600, "sizeInBytes": 6200000, "performers": ["John Legend", "Adele"] },
+            { "title": "Classic Groove", "durationInSeconds": 700, "sizeInBytes": 6500000, "performers": ["Elton John"] },
+            { "title": "Celestial Voyage", "durationInSeconds": 800, "sizeInBytes": 6800000, "performers": ["Thomas Bergersen"] },
+            { "title": "Nightfall Symphony", "durationInSeconds": 500, "sizeInBytes": 6000000, "performers": ["Enya"] },
+            { "title": "Epic Journey", "durationInSeconds": 600, "sizeInBytes": 5602800, "performers": ["Hans Zimmer"] }
+          ],
+          "releasedOn": "2023-12-15T10:00:00Z"
+        },
+        {
+          "id": "22222",
+          "name": "Neon Vibes",
+          "artist": "Synthwave Collective",
+          "type": "EP",
+          "songCount": 4,
+          "songs": [
+            { "title": "Night Drive", "durationInSeconds": 400, "sizeInBytes": 13800000, "performers": ["Synthwave Collective"] },
+            { "title": "Cyber Dreams", "durationInSeconds": 400, "sizeInBytes": 13800000, "performers": ["Synthwave Collective"] },
+            { "title": "Celestial Voyage", "durationInSeconds": 350, "sizeInBytes": 14000000, "performers": ["Thomas Bergersen"] },
+            { "title": "Nightfall Symphony", "durationInSeconds": 350, "sizeInBytes": 13712000, "performers": ["Enya"] }
+          ],
+          "releasedOn": "2023-08-22T20:15:00Z"
+        },
+        {
+          "id": "33333",
+          "name": "Acoustic Nights",
+          "artist": "Sarah McLachlan",
+          "type": "Album",
+          "songCount": 4,
+          "songs": [
+            { "title": "Soft Guitar", "durationInSeconds": 600, "sizeInBytes": 16000000, "performers": ["Sarah McLachlan"] },
+            { "title": "Gentle Rain", "durationInSeconds": 600, "sizeInBytes": 15000000, "performers": ["Sarah McLachlan"] },
+            { "title": "Calm Evenings", "durationInSeconds": 600, "sizeInBytes": 16000000, "performers": ["Sarah McLachlan"] },
+            { "title": "Peaceful Strings", "durationInSeconds": 600, "sizeInBytes": 16360000, "performers": ["Sarah McLachlan"] }
+          ],
+          "releasedOn": "2021-05-14T18:00:00Z"
+        },
+        {
+          "id": "4343",
+          "name": "Single Nights",
+          "artist": "Sarah Clarin",
+          "type": "Single",
+          "songCount": 2,
+          "songs": [
+            { "title": "Midnight Reflections", "durationInSeconds": 1100, "sizeInBytes": 4500000, "performers": ["Sarah Clarin"] },
+            { "title": "Moonlight Serenade", "durationInSeconds": 1300, "sizeInBytes": 4460000, "performers": ["Sarah Clarin"] }
+          ],
+          "releasedOn": "2021-05-14T18:00:00Z"
+        }
+      ]
+    }
+    
+  
+  

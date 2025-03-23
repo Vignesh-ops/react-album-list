@@ -1,38 +1,170 @@
-.App {
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.album-cont{
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-container {
   display: flex;
-  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+
+}
+
+.search {
+  width: 250px;
+  padding: 10px 40px 10px 10px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: url("./assets/search.png") no-repeat right 10px center; 
+  background-size: 20px;
+  outline: none;
+}
+
+.view-cont{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.view-cont a{
+  text-decoration: none;
+  color: rgb(25, 25, 156);
+}
+.view-img{
+  width: 20px;
+  height: auto;
+  padding: 0.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.filter {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.view-head{
+  background-color: #fff;
+  line-height: 40px;
+  padding: 1.5rem;
+}
+
+.view-head h1{
+  margin: 0;
+}
+
+
+.table-container {
+  width: 90%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+th {
+  background-color: #fff !important;
+}
+
+h1 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+td {
+  font-weight: 400;
+  color: #333;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: 500;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+.collection-name {
+  font-weight: 400;
+  color: #333;
+}
+
+.artist-name {
+  font-size: 14px;
+  color: #b8b9bb;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.tbl-head{
+  background-color: #fff;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.tbl-head th,td{
+  border-bottom: none !important;
+  padding: 0.5rem;
+
+}
+.tbl-head table{
+  border-collapse: separate;
+} 
+.tbl-head th:first-child{
+  border-top-left-radius: 1rem;
+} 
+.tbl-head th:last-child{
+  border-top-right-radius: 1rem;
+}
+.tbl-cont{
+  padding: 1rem;
+}
+/* .tbl-data{
+  border-collapse: separate;
+
+} */
+.tbl-data td{
+  background-color: #fff;
+}
+
+.tbl-data th:first-child{
+  border-top-left-radius: 1rem;
+}
+
+.tbl-data th:last-child{
+  border-top-right-radius: 1rem;
+}
+
+.tbl-data tr:not(:last-child) {
+  border-bottom: 0.5px solid #ddd !important;
+}
+
+
+.tbl-data tr:last-child td:first-child {
+  border-bottom-left-radius: 1rem;
+}
+
+.tbl-data tr:last-child td:last-child {
+  border-bottom-right-radius: 1rem;
 }
